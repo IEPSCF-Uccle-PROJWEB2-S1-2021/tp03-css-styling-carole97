@@ -8,6 +8,7 @@ body {
   margin: 0 auto;
   min-width: 1000px;
   max-width: 1400px;
+  
 }
 
 /* Layout */
@@ -43,3 +44,97 @@ header, footer {
 }
 
 /* ECRIVEZ VOTRE CODE CI-DESSOUS */
+
+
+
+
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 10px;
+
+}
+h1,h2{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+p{
+  line-height: 15px;
+  word-spacing: 1px;
+  text-align: unset;
+}
+h1{
+  text-align: center;
+}
+h2{
+
+}
+section{
+  text-indent: 20px;
+
+}
+
+a:hover{
+  background-color:gold;
+  text-decoration: none;
+
+}
+a:visited{
+  color:violet;
+  text-decoration: none;
+
+}
+a:link{
+  color: blue;
+  text-decoration: underline;
+
+}
+a:focus{
+  color: hotpink;
+  text-decoration: none;
+
+}
+a:active {
+  background-color: wheat;
+}
+a[href*="http"] {
+  background: url('https://mdn.mozillademos.org/files/12982/external-link-52.png') no-repeat 100% 0;
+  background-size: 10px 10px;
+  padding-right:11px;
+}
+ul,ol{
+  line-height: 15px;
+  word-spacing: 1px;
+  padding: 0;
+  margin: 0;
+
+}
+ul{
+list-style: square;
+}
+ol{
+  list-style: circle;
+}
+/*
+nav ul {
+    width:200px;
+    list-style:none;
+    padding:0px;
+    
+}*/
+
+nav ul li {
+  list-style: none;
+    text-align:center;
+    border: 1px solid burlywood;
+    padding:20px 0;
+    max-height: 55px;
+    margin: 8px;
+    font-size: 17px;
+
+
+}
+nav,aside{
+  padding: 30px;
+}
+
